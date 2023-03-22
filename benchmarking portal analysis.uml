@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+  <uml:Model xmi:id="_mARjUMWqEe2m-vko_vR7ZA" name="benchmarking portal anallysis">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_mIttosWqEe2m-vko_vR7ZA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_mJP5IMWqEe2m-vko_vR7ZA">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ofG14MWtEe2m-vko_vR7ZA" name="Requirements">
+      <packagedElement xmi:type="uml:Package" xmi:id="_IDZYgMWtEe2m-vko_vR7ZA" name="Usability">
+        <packagedElement xmi:type="uml:Class" xmi:id="_upBdoMWxEe2m-vko_vR7ZA" name="Previous Runs View"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fVzVwMWyEe2m-vko_vR7ZA" name="Theta Versions View"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6E68YMW1Ee2m-vko_vR7ZA" name="All Running Benchmarks View">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_t8nGwMW1Ee2m-vko_vR7ZA" name="Running Benchmarks View"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lIcPsMXnEe2m-vko_vR7ZA" name="Mobile View"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="__a4zUMXoEe2m-vko_vR7ZA" name="Statistics View"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_mPG1cMXqEe2m-vko_vR7ZA" name="Easy Configuration">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_gzigcMXxEe2m-vko_vR7ZA" name="Configuration Complexity"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_h8XmkMirEe2Zery1ZXoVxg" name="List Generated Config"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_I1-UEMXxEe2m-vko_vR7ZA" name="Email Subscription"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_eb90YMjLEe2Zery1ZXoVxg" name="Separated Views"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_6XTd4MjLEe2Zery1ZXoVxg" name="" client="_upBdoMWxEe2m-vko_vR7ZA" supplier="_eb90YMjLEe2Zery1ZXoVxg"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D5hbAMjMEe2Zery1ZXoVxg" name="Uploaded Resources View">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_dUCgEMW3Ee2m-vko_vR7ZA" name="Stored Source Sets"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_JFjC8MW2Ee2m-vko_vR7ZA" name="Stored Executables"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_XJczkMjMEe2Zery1ZXoVxg" name="" client="_D5hbAMjMEe2Zery1ZXoVxg" supplier="_eb90YMjLEe2Zery1ZXoVxg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_YNgRkMjMEe2Zery1ZXoVxg" name="" client="_6E68YMW1Ee2m-vko_vR7ZA" supplier="_eb90YMjLEe2Zery1ZXoVxg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_ZC_IEMjMEe2Zery1ZXoVxg" name="" client="_fVzVwMWyEe2m-vko_vR7ZA" supplier="_eb90YMjLEe2Zery1ZXoVxg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Zxi3MMjMEe2Zery1ZXoVxg" name="" client="__a4zUMXoEe2m-vko_vR7ZA" supplier="_eb90YMjLEe2Zery1ZXoVxg"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_v7WlAMWtEe2m-vko_vR7ZA" name="Running Benchmarks Status"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_LSS9cMWtEe2m-vko_vR7ZA" name="Perfrmance"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_MqYKsMWtEe2m-vko_vR7ZA" name="Reiabiity"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Q9dwgMWtEe2m-vko_vR7ZA" name="Security">
+        <packagedElement xmi:type="uml:Class" xmi:id="_rxv3QMXtEe2m-vko_vR7ZA" name="General View">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_CtU3oMXtEe2m-vko_vR7ZA" name="Admin Privilege">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_ghGCYMXtEe2m-vko_vR7ZA" name="Admin Approve"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_T1WIgMXtEe2m-vko_vR7ZA" name="Admin Modify"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_QpaikMXuEe2m-vko_vR7ZA" name="Start Benchmarking">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_r0RKUMXuEe2m-vko_vR7ZA" name="Privileges"/>
+            </nestedClassifier>
+          </nestedClassifier>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ha79oMWvEe2m-vko_vR7ZA" name="Other's Resources">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_MFd1QMX5Ee2m-vko_vR7ZA" name="Uploaded Files' Rights"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_UP4jgMWtEe2m-vko_vR7ZA" name="Safety">
+        <packagedElement xmi:type="uml:Class" xmi:id="_K1GZMMWvEe2m-vko_vR7ZA" name="VM Statistics"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Wr0acMWtEe2m-vko_vR7ZA" name="Supportabiity"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_LV_AEMWsEe2m-vko_vR7ZA" name="Functionality">
+        <packagedElement xmi:type="uml:Class" xmi:id="_JXOW4MW4Ee2m-vko_vR7ZA" name="Statistical Features">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_foUe8MX7Ee2m-vko_vR7ZA" name="Export Statistics"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_DU0pkMX6Ee2m-vko_vR7ZA" name="Table Generator Usage"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_d_0KsMXoEe2m-vko_vR7ZA" name="Start Benchmark"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7DGaEMXwEe2m-vko_vR7ZA" name="Email alerts"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3LhaAMitEe2Zery1ZXoVxg" name="Run Benchmarks"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jKkiQMivEe2Zery1ZXoVxg" name="Manage Resources">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_ilHZgMX2Ee2m-vko_vR7ZA" name="Upload Source Sets"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_JBOLUMWwEe2m-vko_vR7ZA" name="Delete Option"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_vTmC0MXsEe2m-vko_vR7ZA" name="Upload Executable"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_pFNFkMX6Ee2m-vko_vR7ZA" name="Upload New Tool Definition"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SClJwMizEe2Zery1ZXoVxg" name="Get Benchmark Results">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_suOFMMWuEe2m-vko_vR7ZA" name="Live Run Statistics"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_p4yj0MXoEe2m-vko_vR7ZA" name="Data Processing"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_7G5EAMXnEe2m-vko_vR7ZA" name="Download Results"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_oFh4oMX3Ee2m-vko_vR7ZA" name="Result Diagrams"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_7-m1gMXvEe2m-vko_vR7ZA" name="Logs During Run"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PhHFcMXoEe2m-vko_vR7ZA" name="Configure Benchmark">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_0kBBUMXxEe2m-vko_vR7ZA" name="Upload Configuration"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_ElVv4MXyEe2m-vko_vR7ZA" name="Download Configuration"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_E3y_kMX3Ee2m-vko_vR7ZA" name="Homogeneity"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_69uRMMX4Ee2m-vko_vR7ZA" name="Benchmark Priority"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_fYvKcMWxEe2m-vko_vR7ZA" name="Own Settings"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_l8tHwMXzEe2m-vko_vR7ZA" name="Configuration History"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_VdzeAMi0Ee2Zery1ZXoVxg" client="_PhHFcMXoEe2m-vko_vR7ZA" supplier="_3LhaAMitEe2Zery1ZXoVxg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Z53ZoMi0Ee2Zery1ZXoVxg" client="_SClJwMizEe2Zery1ZXoVxg" supplier="_3LhaAMitEe2Zery1ZXoVxg"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_8a_e0MjJEe2Zery1ZXoVxg" name="History"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mDxjQMWqEe2m-vko_vR7ZA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mD77UMWqEe2m-vko_vR7ZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mIfEIMWqEe2m-vko_vR7ZA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mIfrMMWqEe2m-vko_vR7ZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mIj8oMWqEe2m-vko_vR7ZA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mIoOEMWqEe2m-vko_vR7ZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mIoOEcWqEe2m-vko_vR7ZA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mIoOEsWqEe2m-vko_vR7ZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mIoOE8WqEe2m-vko_vR7ZA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mIoOFMWqEe2m-vko_vR7ZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mIoOFcWqEe2m-vko_vR7ZA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mIoOFsWqEe2m-vko_vR7ZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mIoOF8WqEe2m-vko_vR7ZA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mIrRYMWqEe2m-vko_vR7ZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mIrRYcWqEe2m-vko_vR7ZA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mIrRYsWqEe2m-vko_vR7ZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mIrRY8WqEe2m-vko_vR7ZA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mIrRZMWqEe2m-vko_vR7ZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mIttoMWqEe2m-vko_vR7ZA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mIttocWqEe2m-vko_vR7ZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_v7pf8MWtEe2m-vko_vR7ZA" base_NamedElement="_v7WlAMWtEe2m-vko_vR7ZA" id="R9.2.2_A" text="A futó benchmarkok nézetén átszódjon, hogy az adott mérés hol tart éppen." base_Class="_v7WlAMWtEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_suXPIMWuEe2m-vko_vR7ZA" base_NamedElement="_suOFMMWuEe2m-vko_vR7ZA" id="R1.2.1_B" text="A mérés részeredményei legyenek láthatók a mérés futása közben már, nem csak a legvégén." base_Class="_suOFMMWuEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_K1Nt8MWvEe2m-vko_vR7ZA" base_NamedElement="_K1GZMMWvEe2m-vko_vR7ZA" id="R10_A" text="A használt virtuális gépek statisztikái, információi a nem admin felhasználók számára legyenek rejtettek." base_Class="_K1GZMMWvEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_hbA2IMWvEe2m-vko_vR7ZA" base_NamedElement="_ha79oMWvEe2m-vko_vR7ZA" id="R12_A" text="Más felhasználók által feltöltött futtatható állományok és source set-ek is legyenek láthatóak minden regisztrált felhasználó számára." base_Class="_ha79oMWvEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_JBR1sMWwEe2m-vko_vR7ZA" base_NamedElement="_JBOLUMWwEe2m-vko_vR7ZA" id="R2.3_B" text="Az adott fehasználó által létrehozott entitások (benchmark-ok, futtatható állományok, source set-ek) legyenek az adott felhasználó által törölhetők." base_Class="_JBOLUMWwEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_fYvKccWxEe2m-vko_vR7ZA" base_NamedElement="_fYvKcMWxEe2m-vko_vR7ZA" id="R1.1.2_A" text="A felhasználónak legyen lehetősége saját SET fájlt megadni a benchmark konfigurálásánál." base_Class="_fYvKcMWxEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_upDS0MWxEe2m-vko_vR7ZA" base_NamedElement="_upBdoMWxEe2m-vko_vR7ZA" id="R9.1_A" text="A korábbi saját mérések egy külön nézeten legyen megtekinthetők." base_Class="_upBdoMWxEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_fV5cYMWyEe2m-vko_vR7ZA" base_NamedElement="_fVzVwMWyEe2m-vko_vR7ZA" id="R9.4_B" text="A released Theta verziókról készült benchmarkoknak legyen külön nézet." base_Class="_fVzVwMWyEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_t8t0cMW1Ee2m-vko_vR7ZA" base_NamedElement="_t8nGwMW1Ee2m-vko_vR7ZA" id="R9.2.1_B" text="Legyenek csoportosítva az elindított benchmark-ok az alapján, hogy a bejelentkezett felhasználó indította-e el őket, vagy pedig más." base_Class="_t8nGwMW1Ee2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_6E-mwMW1Ee2m-vko_vR7ZA" base_NamedElement="_6E68YMW1Ee2m-vko_vR7ZA" id="R9.2_A" text="Legyen egy nézet, ahol az összes felhasználó által elindított mérés látszódik." base_Class="_6E68YMW1Ee2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_JFjC8cW2Ee2m-vko_vR7ZA" base_NamedElement="_JFjC8MW2Ee2m-vko_vR7ZA" id="R9.3.1_A" text="Az adott nézeten belül a feltöltött futtatható állományok külön legyenek megjelenítve." base_Class="_JFjC8MW2Ee2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_dUHYkMW3Ee2m-vko_vR7ZA" base_NamedElement="_dUCgEMW3Ee2m-vko_vR7ZA" id="R9.3.2_A" text="Az adott nézeten belül a feltöltött source set-ek külön legyenek megjelenítve." base_Class="_dUCgEMW3Ee2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_JXOW4cW4Ee2m-vko_vR7ZA" base_NamedElement="_JXOW4MW4Ee2m-vko_vR7ZA" id="R3_B" text="A portál kínáljon tetszőleges számú kiválasztott mérésre statisztikai lehetőségeket, melyek a mérések tulajdonságait vetik össze." base_Class="_JXOW4MW4Ee2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_lIiWUMXnEe2m-vko_vR7ZA" base_NamedElement="_lIcPsMXnEe2m-vko_vR7ZA" id="R6_B" text="Legyen a portálnak mobil nézete is." base_Class="_lIcPsMXnEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_7G5EAcXnEe2m-vko_vR7ZA" base_NamedElement="_7G5EAMXnEe2m-vko_vR7ZA" id="R1.2.5_A" text="A felhasználónak legyen lehetősége letölteni az egyes mérések eredményeit." base_Class="_7G5EAMXnEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_PhMlAMXoEe2m-vko_vR7ZA" base_NamedElement="_PhHFcMXoEe2m-vko_vR7ZA" id="R1.1_A" text="A felhasználónak legyen lehetősége tetszőlegesen megadni egy az elvégzendő mérés paramétereit, a mérési adatokat, a mérendő eszközt és a mérési konfigurációkat." base_Class="_PhHFcMXoEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_d_1Y0MXoEe2m-vko_vR7ZA" base_NamedElement="_d_0KsMXoEe2m-vko_vR7ZA" id="R16_" text="A felhasználónak legyen lehetősége elindítani egy mérést a beállított konfigurációkkal." base_Class="_d_0KsMXoEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_p4yj0cXoEe2m-vko_vR7ZA" base_NamedElement="_p4yj0MXoEe2m-vko_vR7ZA" id="R1.2.3_B" text="A portál az elkészült mérések eredményeinek adataiból legyen képes statisztikákat előállítani." base_Class="_p4yj0MXoEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="__a4zUcXoEe2m-vko_vR7ZA" base_NamedElement="__a4zUMXoEe2m-vko_vR7ZA" id="R9.5_B" text="Legyen egy nézet, ahol az elkészült mérések alapján lehet diagramokat, statisztikát generálni." base_Class="__a4zUMXoEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_mPLt8MXqEe2m-vko_vR7ZA" base_NamedElement="_mPG1cMXqEe2m-vko_vR7ZA" id="R8_A" text="A portál adjon lehetőséget konfigurációs kulcs-érték párok megadására és köztük kényszerek definiálására." base_Class="_mPG1cMXqEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_vTriYMXsEe2m-vko_vR7ZA" base_NamedElement="_vTmC0MXsEe2m-vko_vR7ZA" id="R2.1_A" text="Legyen lehetőség feltölteni eszközöket a mérésekhez." base_Class="_vTmC0MXsEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_CtU3ocXtEe2m-vko_vR7ZA" base_NamedElement="_CtU3oMXtEe2m-vko_vR7ZA" id="R11.1_A" text="Legyen admin és egyszerű felhasználói szerep, az admin több joggal rendelkezik a többi felhasználónál." base_Class="_CtU3oMXtEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_T1YkwMXtEe2m-vko_vR7ZA" base_NamedElement="_T1WIgMXtEe2m-vko_vR7ZA" id="R11.1.2_A" text="Az admin szerepű felhasználónak legyen joga a többi felhasználó által kezelt méréseket módosítani, esetleg törölni." base_Class="_T1WIgMXtEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_ghGCYcXtEe2m-vko_vR7ZA" base_NamedElement="_ghGCYMXtEe2m-vko_vR7ZA" id="R11.1.1_B" text="Az admin szereppel rendelkező felhasználónak kell jóváhagynia az új felhasználók regisztrációját." base_Class="_ghGCYMXtEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_rx2k8MXtEe2m-vko_vR7ZA" base_NamedElement="_rxv3QMXtEe2m-vko_vR7ZA" id="R11_A" text="A méréseket és a portál nézeteit csak bejelentkezett felhasználók láthassák és kezelhessék." base_Class="_rxv3QMXtEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_QpjsgMXuEe2m-vko_vR7ZA" base_NamedElement="_QpaikMXuEe2m-vko_vR7ZA" id="R11.1.3_A" text="Méréseket bármelyik bejelentkezett felhasználó indíthat." base_Class="_QpaikMXuEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_r0aUQMXuEe2m-vko_vR7ZA" base_NamedElement="_r0RKUMXuEe2m-vko_vR7ZA" id="R11.1.3.1_B" text="A mérések konfigurálása során egyes beállítások csak azoknak a felhasználóknak legyenek elérhetők, akiknek az admin felhasználó erre jogot adott. (Pl. legmagasabb szintű prioritás beállítása)" base_Class="_r0RKUMXuEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_7-m1gcXvEe2m-vko_vR7ZA" base_NamedElement="_7-m1gMXvEe2m-vko_vR7ZA" id="R1.2.2_B" text="A mérések futása alatt is legyenek elérhetők a log üzenetei a méréseknek." base_Class="_7-m1gMXvEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_7DJdYMXwEe2m-vko_vR7ZA" base_NamedElement="_7DGaEMXwEe2m-vko_vR7ZA" id="R4_A" text="A portál tudjon email üzeneteket küldeni a felhasználóknak a méréseikkel kapcsolatban." base_Class="_7DGaEMXwEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_I2AJQMXxEe2m-vko_vR7ZA" base_NamedElement="_I1-UEMXxEe2m-vko_vR7ZA" id="R7_A" text="A felhasználóknak legyen lehetőségük bekapcsolni és kikapcsolni az email értesítéseket." base_Class="_I1-UEMXxEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_gzkVoMXxEe2m-vko_vR7ZA" base_NamedElement="_gzigcMXxEe2m-vko_vR7ZA" id="R8.1_B" text="A mérések konfigurálása során legyenek alap beállításlehetőségek." base_Class="_gzigcMXxEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_0kF50MXxEe2m-vko_vR7ZA" base_NamedElement="_0kBBUMXxEe2m-vko_vR7ZA" id="R1.1.3_A" text="Legyen lehetőség feltölteni és betölteni korábbi méréskonfigurációt." base_Class="_0kBBUMXxEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_ElZaQMXyEe2m-vko_vR7ZA" base_NamedElement="_ElVv4MXyEe2m-vko_vR7ZA" id="R1.1.4_A" text="Legyen lehetőség letölteni a már beállított méréskonfigurációt." base_Class="_ElVv4MXyEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_l8vkAMXzEe2m-vko_vR7ZA" base_NamedElement="_l8tHwMXzEe2m-vko_vR7ZA" id="R1.1.1_B" text="A portál tárolja el a felhasználók által beállított korábbi benchmark konfigurációkat, ezek legyenek újrafelhasználhatóak." base_Class="_l8tHwMXzEe2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_ilLD4MX2Ee2m-vko_vR7ZA" base_NamedElement="_ilHZgMX2Ee2m-vko_vR7ZA" id="R2.2_A" text="Legyen lehetőség feltölteni bemeneti fájlokat a mérésekhez." base_Class="_ilHZgMX2Ee2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_E3y_kcX3Ee2m-vko_vR7ZA" base_NamedElement="_E3y_kMX3Ee2m-vko_vR7ZA" id="R1.1.6_B" text="Legyen lehetőség beállítani egy adott mérésnél, hogy mennyire fontos a felhasználónak, hogy az adott mérés csak egy konkrét számítógépen fusson, vagy futhat-e több között elosztott módon is." base_Class="_E3y_kMX3Ee2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_oFrpoMX3Ee2m-vko_vR7ZA" base_NamedElement="_oFh4oMX3Ee2m-vko_vR7ZA" id="R1.2.4_B" text="A portál legyen képes megjeleníteni a mérések végeredményeriől a benchexec által generált  grafikonokat." base_Class="_oFh4oMX3Ee2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_694CMMX4Ee2m-vko_vR7ZA" base_NamedElement="_69uRMMX4Ee2m-vko_vR7ZA" id="R1.1.5_A" text="Legyen lehetőség a mérések konfigurálása során az adott méréshez prioritási értéket rendelni." base_Class="_69uRMMX4Ee2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_MFki8MX5Ee2m-vko_vR7ZA" base_NamedElement="_MFd1QMX5Ee2m-vko_vR7ZA" id="R12.1_A" text="A feltöltött futtatható és bemeneti fájlokat bárki használhassa fel, de törölni csak a tulajdonosa tudhassa őket." base_Class="_MFd1QMX5Ee2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_DU0pkcX6Ee2m-vko_vR7ZA" base_NamedElement="_DU0pkMX6Ee2m-vko_vR7ZA" id="R3.2_B" text="Lehessen használni a benchexec table-generator eszközét a portálról akár saját feltöltött fájlokkal, akár a portálon lévő korábbi eredményekkel." base_Class="_DU0pkMX6Ee2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_pFNFkcX6Ee2m-vko_vR7ZA" base_NamedElement="_pFNFkMX6Ee2m-vko_vR7ZA" id="R2.4_B" text="Lehessen új tool definition fájlt feltölteni és hozzáadni a portál által futtatott benchexec szoftverhez." base_Class="_pFNFkMX6Ee2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_foe3AMX7Ee2m-vko_vR7ZA" base_NamedElement="_foUe8MX7Ee2m-vko_vR7ZA" id="R3.1_B" text="Legyen lehetőség az előállított grafikonokat, diagramokat, statisztikákat exportálni csv formátú fájlba." base_Class="_foUe8MX7Ee2m-vko_vR7ZA"/>
+  <Requirements:Requirement xmi:id="_h80SgMirEe2Zery1ZXoVxg" base_NamedElement="_h8XmkMirEe2Zery1ZXoVxg" id="R8.2_B" text="A mérés konfigurálása során automatikusan létrehozott konfiguráció-keresztszorzatokat a konfigurálás végeztével jelenítse meg a portál a felhasználó számára egy lista formájában, hogy a végeredményt ellenőrizni tudja." base_Class="_h8XmkMirEe2Zery1ZXoVxg"/>
+  <Requirements:Requirement xmi:id="_3LhaAcitEe2Zery1ZXoVxg" base_NamedElement="_3LhaAMitEe2Zery1ZXoVxg" id="R1_A" text="A portálon legyen lehetőség benchmark méréseket futtatni." base_Class="_3LhaAMitEe2Zery1ZXoVxg"/>
+  <Requirements:Requirement xmi:id="_jKoMoMivEe2Zery1ZXoVxg" base_NamedElement="_jKkiQMivEe2Zery1ZXoVxg" id="R2_A" text="A portálon legyen lehetőség kezelni a mérésekhez szükséges fájlokat." base_Class="_jKkiQMivEe2Zery1ZXoVxg"/>
+  <Requirements:Requirement xmi:id="_SClJwcizEe2Zery1ZXoVxg" base_NamedElement="_SClJwMizEe2Zery1ZXoVxg" id="R1.2_A" text="Legyen lehetőség a portálon a benchmarkok eredményeit megtekinteni." base_Class="_SClJwMizEe2Zery1ZXoVxg"/>
+  <Requirements:DeriveReqt xmi:id="_Vd7Z0Mi0Ee2Zery1ZXoVxg" base_DirectedRelationship="_VdzeAMi0Ee2Zery1ZXoVxg" base_Abstraction="_VdzeAMi0Ee2Zery1ZXoVxg"/>
+  <Requirements:DeriveReqt xmi:id="_Z53Zoci0Ee2Zery1ZXoVxg" base_DirectedRelationship="_Z53ZoMi0Ee2Zery1ZXoVxg" base_Abstraction="_Z53ZoMi0Ee2Zery1ZXoVxg"/>
+  <Requirements:Requirement xmi:id="_8bJP0MjJEe2Zery1ZXoVxg" base_NamedElement="_8a_e0MjJEe2Zery1ZXoVxg" id="R5_A" text="A portál tárolja el minden felhasználó esetén a korábban futtatott méréseket a metaadataikkal, eredményükkel együtt." base_Class="_8a_e0MjJEe2Zery1ZXoVxg"/>
+  <Requirements:Requirement xmi:id="_eb90YcjLEe2Zery1ZXoVxg" base_NamedElement="_eb90YMjLEe2Zery1ZXoVxg" id="R9_A" text="A portál rendelkezzen különböző nézetekkel a különböző felhasználási esetekhez." base_Class="_eb90YMjLEe2Zery1ZXoVxg"/>
+  <Requirements:DeriveReqt xmi:id="_6XTd4cjLEe2Zery1ZXoVxg" base_DirectedRelationship="_6XTd4MjLEe2Zery1ZXoVxg" base_Abstraction="_6XTd4MjLEe2Zery1ZXoVxg"/>
+  <Requirements:Requirement xmi:id="_D5hbAcjMEe2Zery1ZXoVxg" base_NamedElement="_D5hbAMjMEe2Zery1ZXoVxg" id="R9.3_A" text="Legyen egy nézet, ahol a feltöltött fájlok tekinthetők meg, csoportosítva az alapján, hogy az adott erőforrást a felhasználó, vagy a többi felhasználó töltötte fel." base_Class="_D5hbAMjMEe2Zery1ZXoVxg"/>
+  <Requirements:DeriveReqt xmi:id="_XJczkcjMEe2Zery1ZXoVxg" base_DirectedRelationship="_XJczkMjMEe2Zery1ZXoVxg" base_Abstraction="_XJczkMjMEe2Zery1ZXoVxg"/>
+  <Requirements:DeriveReqt xmi:id="_YNgRkcjMEe2Zery1ZXoVxg" base_DirectedRelationship="_YNgRkMjMEe2Zery1ZXoVxg" base_Abstraction="_YNgRkMjMEe2Zery1ZXoVxg"/>
+  <Requirements:DeriveReqt xmi:id="_ZC_IEcjMEe2Zery1ZXoVxg" base_DirectedRelationship="_ZC_IEMjMEe2Zery1ZXoVxg" base_Abstraction="_ZC_IEMjMEe2Zery1ZXoVxg"/>
+  <Requirements:DeriveReqt xmi:id="_Zxi3McjMEe2Zery1ZXoVxg" base_DirectedRelationship="_Zxi3MMjMEe2Zery1ZXoVxg" base_Abstraction="_Zxi3MMjMEe2Zery1ZXoVxg"/>
+</xmi:XMI>
