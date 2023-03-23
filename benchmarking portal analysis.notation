@@ -209,7 +209,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vUNG48XsEe2m-vko_vR7ZA"/>
         </children>
         <element xmi:type="uml:Class" href="benchmarking%20portal%20analysis.uml#_vTmC0MXsEe2m-vko_vR7ZA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vUNG0cXsEe2m-vko_vR7ZA" x="14" y="208" width="181"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vUNG0cXsEe2m-vko_vR7ZA" x="14" y="208" width="181" height="141"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_7_eYMMXvEe2m-vko_vR7ZA" type="Class_Shape_CN">
         <children xmi:type="notation:DecorationNode" xmi:id="_7_eYMsXvEe2m-vko_vR7ZA" type="Class_NameLabel_CN"/>
@@ -365,7 +365,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_im1Q0MX2Ee2m-vko_vR7ZA"/>
         </children>
         <element xmi:type="uml:Class" href="benchmarking%20portal%20analysis.uml#_ilHZgMX2Ee2m-vko_vR7ZA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_im0pscX2Ee2m-vko_vR7ZA" x="214" y="8" width="181"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_im0pscX2Ee2m-vko_vR7ZA" x="214" y="8" width="181" height="141"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_E4rwYMX3Ee2m-vko_vR7ZA" type="Class_Shape_CN">
         <children xmi:type="notation:DecorationNode" xmi:id="_E4rwYsX3Ee2m-vko_vR7ZA" type="Class_NameLabel_CN"/>
@@ -1805,7 +1805,7 @@
     <element xsi:nil="true"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yc0kUsivEe2Zery1ZXoVxg" points="[196, 80, -643984, -643984]$[240, 80, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yfFOIMivEe2Zery1ZXoVxg" id="(1.0,0.2484472049689441)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yfFOIcivEe2Zery1ZXoVxg" id="(0.0,0.2857142857142857)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yfFOIcivEe2Zery1ZXoVxg" id="(0.0,0.28368794326241137)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_zaY_0MivEe2Zery1ZXoVxg" type="Element_ContainmentEdge" source="_jME-IMivEe2Zery1ZXoVxg" target="_a6L7gMWxEe2m-vko_vR7ZA" routing="Rectilinear">
     <styles xmi:type="notation:FontStyle" xmi:id="_zaY_0civEe2Zery1ZXoVxg"/>

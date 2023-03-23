@@ -35,7 +35,7 @@
                 <stop stop-opacity="1" stop-color="white" offset="0%"/>
                 <stop stop-opacity="1" stop-color="rgb(195,215,221)" offset="100%"/>
             </linearGradient>
-            <linearGradient x1="63" x2="63" y1="263" gradientUnits="userSpaceOnUse" y2="373" xlink:type="simple" xlink:actuate="onLoad" id="linearGradient9" xlink:show="other" spreadMethod="pad">
+            <linearGradient x1="63" x2="63" y1="263" gradientUnits="userSpaceOnUse" y2="404" xlink:type="simple" xlink:actuate="onLoad" id="linearGradient9" xlink:show="other" spreadMethod="pad">
                 <stop stop-opacity="1" stop-color="white" offset="0%"/>
                 <stop stop-opacity="1" stop-color="rgb(195,215,221)" offset="100%"/>
             </linearGradient>
@@ -59,7 +59,7 @@
                 <stop stop-opacity="1" stop-color="white" offset="0%"/>
                 <stop stop-opacity="1" stop-color="rgb(195,215,221)" offset="100%"/>
             </linearGradient>
-            <linearGradient x1="263" x2="263" y1="63" gradientUnits="userSpaceOnUse" y2="173" xlink:type="simple" xlink:actuate="onLoad" id="linearGradient15" xlink:show="other" spreadMethod="pad">
+            <linearGradient x1="263" x2="263" y1="63" gradientUnits="userSpaceOnUse" y2="204" xlink:type="simple" xlink:actuate="onLoad" id="linearGradient15" xlink:show="other" spreadMethod="pad">
                 <stop stop-opacity="1" stop-color="white" offset="0%"/>
                 <stop stop-opacity="1" stop-color="rgb(195,215,221)" offset="100%"/>
             </linearGradient>
@@ -404,28 +404,28 @@
                 <path d="M1162 762 L1405 762 L1405 905 L1162 905 L1162 762 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath61">
-                <path d="M63 263 L63 372 L243 372 L243 263 Z"/>
+                <path d="M63 263 L63 403 L243 403 L243 263 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath62">
-                <path d="M103 265 L206 265 L206 287 L103 287 L103 265 Z"/>
+                <path d="M103 266 L206 266 L206 288 L103 288 L103 266 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath63">
-                <path d="M63 286 L245 286 L245 308 L63 308 L63 286 Z"/>
+                <path d="M63 287 L245 287 L245 309 L63 309 L63 287 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath64">
-                <path d="M100 286 L227 286 L227 308 L100 308 L100 286 Z"/>
+                <path d="M100 287 L227 287 L227 309 L100 309 L100 287 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath65">
-                <path d="M68 309 L142 309 L142 331 L68 331 L68 309 Z"/>
+                <path d="M68 310 L142 310 L142 332 L68 332 L68 310 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath66">
-                <path d="M68 329 L221 329 L221 374 L68 374 L68 329 Z"/>
+                <path d="M68 330 L221 330 L221 392 L68 392 L68 330 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath67">
-                <path d="M63 307 L245 307 L245 374 L63 374 L63 307 Z"/>
+                <path d="M63 308 L245 308 L245 403 L63 403 L63 308 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath68">
-                <path d="M62 262 L245 262 L245 374 L62 374 L62 262 Z"/>
+                <path d="M62 262 L245 262 L245 405 L62 405 L62 262 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath69">
                 <path d="M1163 603 L1163 743 L1403 743 L1403 603 Z"/>
@@ -548,28 +548,28 @@
                 <path d="M62 462 L305 462 L305 645 L62 645 L62 462 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath109">
-                <path d="M263 63 L263 172 L443 172 L443 63 Z"/>
+                <path d="M263 63 L263 203 L443 203 L443 63 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath110">
-                <path d="M303 65 L406 65 L406 87 L303 87 L303 65 Z"/>
+                <path d="M303 66 L406 66 L406 88 L303 88 L303 66 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath111">
-                <path d="M263 86 L445 86 L445 108 L263 108 L263 86 Z"/>
+                <path d="M263 87 L445 87 L445 109 L263 109 L263 87 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath112">
-                <path d="M298 86 L430 86 L430 108 L298 108 L298 86 Z"/>
+                <path d="M298 87 L430 87 L430 109 L298 109 L298 87 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath113">
-                <path d="M268 109 L342 109 L342 131 L268 131 L268 109 Z"/>
+                <path d="M268 110 L342 110 L342 132 L268 132 L268 110 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath114">
-                <path d="M268 129 L422 129 L422 174 L268 174 L268 129 Z"/>
+                <path d="M268 130 L422 130 L422 192 L268 192 L268 130 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath115">
-                <path d="M263 107 L445 107 L445 174 L263 174 L263 107 Z"/>
+                <path d="M263 108 L445 108 L445 203 L263 203 L263 108 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath116">
-                <path d="M262 62 L445 62 L445 174 L262 174 L262 62 Z"/>
+                <path d="M262 62 L445 62 L445 205 L262 205 L262 62 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath117">
                 <path d="M663 943 L663 1163 L903 1163 L903 943 Z"/>
@@ -1653,17 +1653,17 @@
             <line y2="805" fill="none" x1="1163" clip-path="url(#clipPath59)" x2="1404" y1="805"/>
             <line y2="805" fill="none" x1="1163" clip-path="url(#clipPath60)" x2="1404" y1="805"/>
             <rect x="1163" y="763" clip-path="url(#clipPath60)" fill="none" width="240" rx="0" ry="0" height="140"/>
-            <rect x="63" y="263" clip-path="url(#clipPath61)" fill="url(#linearGradient9)" width="181" height="110" stroke="none"/>
-            <text x="104" xml:space="preserve" y="283" clip-path="url(#clipPath62)" stroke="none">«Requirement»</text>
-            <image x="82" y="289" clip-path="url(#clipPath63)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="101" xml:space="preserve" y="304" clip-path="url(#clipPath64)" stroke="none">Upload Executable</text>
-            <text x="69" xml:space="preserve" y="327" clip-path="url(#clipPath65)" stroke="none">id=R2.1_A </text>
-            <text x="69" xml:space="preserve" y="347" clip-path="url(#clipPath66)" stroke="none">text=Legyen lehetőség</text>
-            <text x="69" xml:space="preserve" y="367" clip-path="url(#clipPath66)" stroke="none">feltölteni eszközöket a</text>
-            <text x="69" xml:space="preserve" y="387" clip-path="url(#clipPath66)" stroke="none">mérésekhez. </text>
-            <line y2="308" fill="none" x1="63" clip-path="url(#clipPath67)" x2="244" y1="308"/>
-            <line y2="308" fill="none" x1="63" clip-path="url(#clipPath68)" x2="244" y1="308"/>
-            <rect x="63" y="263" clip-path="url(#clipPath68)" fill="none" width="180" rx="0" ry="0" height="109"/>
+            <rect x="63" y="263" clip-path="url(#clipPath61)" fill="url(#linearGradient9)" width="181" height="141" stroke="none"/>
+            <text x="104" xml:space="preserve" y="284" clip-path="url(#clipPath62)" stroke="none">«Requirement»</text>
+            <image x="82" y="290" clip-path="url(#clipPath63)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="101" xml:space="preserve" y="305" clip-path="url(#clipPath64)" stroke="none">Upload Executable</text>
+            <text x="69" xml:space="preserve" y="328" clip-path="url(#clipPath65)" stroke="none">id=R2.1_A </text>
+            <text x="69" xml:space="preserve" y="348" clip-path="url(#clipPath66)" stroke="none">text=Legyen lehetőség</text>
+            <text x="69" xml:space="preserve" y="368" clip-path="url(#clipPath66)" stroke="none">feltölteni eszközöket a</text>
+            <text x="69" xml:space="preserve" y="388" clip-path="url(#clipPath66)" stroke="none">mérésekhez. </text>
+            <line y2="309" fill="none" x1="63" clip-path="url(#clipPath67)" x2="244" y1="309"/>
+            <line y2="309" fill="none" x1="63" clip-path="url(#clipPath68)" x2="244" y1="309"/>
+            <rect x="63" y="263" clip-path="url(#clipPath68)" fill="none" width="180" rx="0" ry="0" height="140"/>
             <rect x="1163" y="603" clip-path="url(#clipPath69)" fill="url(#linearGradient10)" width="241" height="141" stroke="none"/>
             <text x="1234" xml:space="preserve" y="620" clip-path="url(#clipPath70)" stroke="none">«Requirement»</text>
             <image x="1220" y="626" clip-path="url(#clipPath71)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
@@ -1722,17 +1722,17 @@
             <line y2="505" fill="none" x1="63" clip-path="url(#clipPath107)" x2="304" y1="505"/>
             <line y2="505" fill="none" x1="63" clip-path="url(#clipPath108)" x2="304" y1="505"/>
             <rect x="63" y="463" clip-path="url(#clipPath108)" fill="none" width="240" rx="0" ry="0" height="180"/>
-            <rect x="263" y="63" clip-path="url(#clipPath109)" fill="url(#linearGradient15)" width="181" height="110" stroke="none"/>
-            <text x="304" xml:space="preserve" y="83" clip-path="url(#clipPath110)" stroke="none">«Requirement»</text>
-            <image x="280" y="89" clip-path="url(#clipPath111)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-            <text x="299" xml:space="preserve" y="104" clip-path="url(#clipPath112)" stroke="none">Upload Source Sets</text>
-            <text x="269" xml:space="preserve" y="127" clip-path="url(#clipPath113)" stroke="none">id=R2.2_A </text>
-            <text x="269" xml:space="preserve" y="147" clip-path="url(#clipPath114)" stroke="none">text=Legyen lehetőség</text>
-            <text x="269" xml:space="preserve" y="167" clip-path="url(#clipPath114)" stroke="none">feltölteni bemeneti</text>
-            <text x="269" xml:space="preserve" y="187" clip-path="url(#clipPath114)" stroke="none">fájlokat a mérésekhez. </text>
-            <line y2="108" fill="none" x1="263" clip-path="url(#clipPath115)" x2="444" y1="108"/>
-            <line y2="108" fill="none" x1="263" clip-path="url(#clipPath116)" x2="444" y1="108"/>
-            <rect x="263" y="63" clip-path="url(#clipPath116)" fill="none" width="180" rx="0" ry="0" height="109"/>
+            <rect x="263" y="63" clip-path="url(#clipPath109)" fill="url(#linearGradient15)" width="181" height="141" stroke="none"/>
+            <text x="304" xml:space="preserve" y="84" clip-path="url(#clipPath110)" stroke="none">«Requirement»</text>
+            <image x="280" y="90" clip-path="url(#clipPath111)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+            <text x="299" xml:space="preserve" y="105" clip-path="url(#clipPath112)" stroke="none">Upload Source Sets</text>
+            <text x="269" xml:space="preserve" y="128" clip-path="url(#clipPath113)" stroke="none">id=R2.2_A </text>
+            <text x="269" xml:space="preserve" y="148" clip-path="url(#clipPath114)" stroke="none">text=Legyen lehetőség</text>
+            <text x="269" xml:space="preserve" y="168" clip-path="url(#clipPath114)" stroke="none">feltölteni bemeneti</text>
+            <text x="269" xml:space="preserve" y="188" clip-path="url(#clipPath114)" stroke="none">fájlokat a mérésekhez. </text>
+            <line y2="109" fill="none" x1="263" clip-path="url(#clipPath115)" x2="444" y1="109"/>
+            <line y2="109" fill="none" x1="263" clip-path="url(#clipPath116)" x2="444" y1="109"/>
+            <rect x="263" y="63" clip-path="url(#clipPath116)" fill="none" width="180" rx="0" ry="0" height="140"/>
             <rect x="663" y="943" clip-path="url(#clipPath117)" fill="url(#linearGradient16)" width="241" height="221" stroke="none"/>
             <text x="734" xml:space="preserve" y="960" clip-path="url(#clipPath118)" stroke="none">«Requirement»</text>
             <image x="729" y="966" clip-path="url(#clipPath119)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABFElEQVR4Xs2TS27C&#13;&#10;QBBEOQ+LbLkDP3OLbHMBfjK+B0cwCSEXiJQzZAcrPuKbYLDB405Xj2aw45XFhsWj&#13;&#10;anqqSyMEJSIq3UNuUBT5eBl+UmswYT5EHVHGY+9BNZgbsGMLHHdC0+WR+RWdrTRT&#13;&#10;UT0TLxmtTff9VtDojWmxOzMn8r++abE9U7nybJnzHMgdK7LN/jhbsP6JJPBU9diH&#13;&#10;sgg1fsOKO2SQzRUcgosEoCD9giC82jkye9ZcAULmBfCyGMW2AJgXBGH8r6D7RtFV&#13;&#10;CQhA04vw6bsLU+cdW1DvjChWRHHCqIQUg7NoAq9nCrNE+1rnNVtQa/vMiKrtmzdn&#13;&#10;gz7jzifsZArwxRThwQrwu8agCJn/wj38AfMpIBw/DWxzAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
