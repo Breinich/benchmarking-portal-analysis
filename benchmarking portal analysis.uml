@@ -43,15 +43,14 @@
             <nestedClassifier xmi:type="uml:Class" xmi:id="_QpaikMXuEe2m-vko_vR7ZA" name="Start Benchmarking">
               <nestedClassifier xmi:type="uml:Class" xmi:id="_r0RKUMXuEe2m-vko_vR7ZA" name="Privileges"/>
             </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_K1GZMMWvEe2m-vko_vR7ZA" name="VM Statistics"/>
           </nestedClassifier>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_ha79oMWvEe2m-vko_vR7ZA" name="Other's Resources">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_MFd1QMX5Ee2m-vko_vR7ZA" name="Uploaded Files' Rights"/>
         </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_UP4jgMWtEe2m-vko_vR7ZA" name="Safety">
-        <packagedElement xmi:type="uml:Class" xmi:id="_K1GZMMWvEe2m-vko_vR7ZA" name="VM Statistics"/>
-      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_UP4jgMWtEe2m-vko_vR7ZA" name="Safety"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_Wr0acMWtEe2m-vko_vR7ZA" name="Supportabiity"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_LV_AEMWsEe2m-vko_vR7ZA" name="Functionality">
         <packagedElement xmi:type="uml:Class" xmi:id="_JXOW4MW4Ee2m-vko_vR7ZA" name="Statistical Features">
