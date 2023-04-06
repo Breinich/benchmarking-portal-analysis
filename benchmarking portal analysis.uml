@@ -86,6 +86,130 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_8a_e0MjJEe2Zery1ZXoVxg" name="History"/>
       </packagedElement>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aZ-GkNI3Ee2LFtJ0zrlrCg" name="Use-Cases">
+      <packagedElement xmi:type="uml:Actor" xmi:id="_lvM5cNI3Ee2LFtJ0zrlrCg" name="User">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ESxwgNI4Ee2LFtJ0zrlrCg" general="_Cgc3QNI4Ee2LFtJ0zrlrCg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_ois70NI3Ee2LFtJ0zrlrCg" name="Admin">
+        <generalization xmi:type="uml:Generalization" xmi:id="_qf1W4NI3Ee2LFtJ0zrlrCg" general="_lvM5cNI3Ee2LFtJ0zrlrCg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_yBOrwNI3Ee2LFtJ0zrlrCg" name="Manage Users">
+        <include xmi:type="uml:Include" xmi:id="_oT5HMNQNEe2Pfv52twz6tQ" addition="_mngd4NQNEe2Pfv52twz6tQ"/>
+        <include xmi:type="uml:Include" xmi:id="_rf-BoNQNEe2Pfv52twz6tQ" addition="_ot1RMNQNEe2Pfv52twz6tQ"/>
+        <include xmi:type="uml:Include" xmi:id="_Rf8RcNQREe2Pfv52twz6tQ" addition="_QCp0ENQREe2Pfv52twz6tQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_2iAIQNI3Ee2LFtJ0zrlrCg" memberEnd="_2iJ5QNI3Ee2LFtJ0zrlrCg _2iKgUNI3Ee2LFtJ0zrlrCg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2iHdANI3Ee2LFtJ0zrlrCg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2iHdAdI3Ee2LFtJ0zrlrCg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_2iJ5QNI3Ee2LFtJ0zrlrCg" name="admin" type="_ois70NI3Ee2LFtJ0zrlrCg" association="_2iAIQNI3Ee2LFtJ0zrlrCg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_2iKgUNI3Ee2LFtJ0zrlrCg" name="manage users" type="_yBOrwNI3Ee2LFtJ0zrlrCg" association="_2iAIQNI3Ee2LFtJ0zrlrCg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_Cgc3QNI4Ee2LFtJ0zrlrCg" name="Guest"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_MSjqgNI4Ee2LFtJ0zrlrCg" name="Manage Benchmarks">
+        <include xmi:type="uml:Include" xmi:id="_znqp4NP_Ee2Pfv52twz6tQ" addition="_u9I0cNP_Ee2Pfv52twz6tQ"/>
+        <include xmi:type="uml:Include" xmi:id="_PK7xoNQAEe2Pfv52twz6tQ" addition="_E4c1MNQAEe2Pfv52twz6tQ"/>
+        <include xmi:type="uml:Include" xmi:id="_XqOSINQAEe2Pfv52twz6tQ" addition="_0HARQNP_Ee2Pfv52twz6tQ"/>
+        <include xmi:type="uml:Include" xmi:id="_biQAsNQNEe2Pfv52twz6tQ" addition="_Y7jrQNQNEe2Pfv52twz6tQ"/>
+        <include xmi:type="uml:Include" xmi:id="_oKNxUNQOEe2Pfv52twz6tQ" addition="_k-T2ANQOEe2Pfv52twz6tQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_OY2BkNI4Ee2LFtJ0zrlrCg" name="Manage Virtual Machines">
+        <include xmi:type="uml:Include" xmi:id="_938zoNQPEe2Pfv52twz6tQ" addition="_6q96QNQPEe2Pfv52twz6tQ"/>
+        <include xmi:type="uml:Include" xmi:id="_QOkloNQQEe2Pfv52twz6tQ" addition="_NPqkgNQQEe2Pfv52twz6tQ"/>
+        <include xmi:type="uml:Include" xmi:id="_U3WHkNQQEe2Pfv52twz6tQ" addition="_R4B2wNQQEe2Pfv52twz6tQ"/>
+        <include xmi:type="uml:Include" xmi:id="_rrRLUNQQEe2Pfv52twz6tQ" addition="_p8OPkNQQEe2Pfv52twz6tQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_SW39YNI4Ee2LFtJ0zrlrCg" memberEnd="_SW39Y9I4Ee2LFtJ0zrlrCg _SW39ZNI4Ee2LFtJ0zrlrCg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SW39YdI4Ee2LFtJ0zrlrCg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SW39YtI4Ee2LFtJ0zrlrCg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_SW39Y9I4Ee2LFtJ0zrlrCg" name="manage benchmarks" type="_MSjqgNI4Ee2LFtJ0zrlrCg" association="_SW39YNI4Ee2LFtJ0zrlrCg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_SW39ZNI4Ee2LFtJ0zrlrCg" name="user" type="_lvM5cNI3Ee2LFtJ0zrlrCg" association="_SW39YNI4Ee2LFtJ0zrlrCg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_TWhcgNI4Ee2LFtJ0zrlrCg" memberEnd="_TWhcg9I4Ee2LFtJ0zrlrCg _TWhchNI4Ee2LFtJ0zrlrCg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TWhcgdI4Ee2LFtJ0zrlrCg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TWhcgtI4Ee2LFtJ0zrlrCg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_TWhcg9I4Ee2LFtJ0zrlrCg" name="manage virtual machines" type="_OY2BkNI4Ee2LFtJ0zrlrCg" association="_TWhcgNI4Ee2LFtJ0zrlrCg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_TWhchNI4Ee2LFtJ0zrlrCg" name="admin" type="_ois70NI3Ee2LFtJ0zrlrCg" association="_TWhcgNI4Ee2LFtJ0zrlrCg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_cTJZQNI4Ee2LFtJ0zrlrCg" name="Manage Executables">
+        <include xmi:type="uml:Include" xmi:id="_3fUPoNI4Ee2LFtJ0zrlrCg" addition="_t0hlUNI4Ee2LFtJ0zrlrCg"/>
+        <include xmi:type="uml:Include" xmi:id="_5jVV0NI4Ee2LFtJ0zrlrCg" addition="_whbQcNI4Ee2LFtJ0zrlrCg"/>
+        <include xmi:type="uml:Include" xmi:id="_g6Wt0NQNEe2Pfv52twz6tQ" addition="_fHnk4NQNEe2Pfv52twz6tQ"/>
+        <include xmi:type="uml:Include" xmi:id="_SiDgoNQPEe2Pfv52twz6tQ" addition="_QGzmMNQPEe2Pfv52twz6tQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_fWcyMNI4Ee2LFtJ0zrlrCg" memberEnd="_fWcyM9I4Ee2LFtJ0zrlrCg _fWcyNNI4Ee2LFtJ0zrlrCg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fWcyMdI4Ee2LFtJ0zrlrCg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fWcyMtI4Ee2LFtJ0zrlrCg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_fWcyM9I4Ee2LFtJ0zrlrCg" name="user" type="_lvM5cNI3Ee2LFtJ0zrlrCg" association="_fWcyMNI4Ee2LFtJ0zrlrCg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_fWcyNNI4Ee2LFtJ0zrlrCg" name="manage files" type="_cTJZQNI4Ee2LFtJ0zrlrCg" association="_fWcyMNI4Ee2LFtJ0zrlrCg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_t0hlUNI4Ee2LFtJ0zrlrCg" name="Upload a New Executable"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_whbQcNI4Ee2LFtJ0zrlrCg" name="Download an Executable"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_u9I0cNP_Ee2Pfv52twz6tQ" name="Configure and Start a New Benchmark">
+        <extend xmi:type="uml:Extend" xmi:id="_ZKVRoNQOEe2Pfv52twz6tQ" extendedCase="_XgEvQNQOEe2Pfv52twz6tQ" extensionLocation="_ZKVRodQOEe2Pfv52twz6tQ"/>
+        <extend xmi:type="uml:Extend" xmi:id="_ZvQjoNQOEe2Pfv52twz6tQ" extendedCase="_V6kKANQOEe2Pfv52twz6tQ" extensionLocation="_ZvQjodQOEe2Pfv52twz6tQ"/>
+        <extend xmi:type="uml:Extend" xmi:id="_OxBXoNQSEe2Pfv52twz6tQ" extendedCase="_L2FQgNQSEe2Pfv52twz6tQ" extensionLocation="_OxBXodQSEe2Pfv52twz6tQ"/>
+        <extend xmi:type="uml:Extend" xmi:id="_S2UZENQSEe2Pfv52twz6tQ" extendedCase="_QQCTUNQSEe2Pfv52twz6tQ" extensionLocation="_S2UZEdQSEe2Pfv52twz6tQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_0HARQNP_Ee2Pfv52twz6tQ" name="Modify a Benchmark">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_3H1lAdP_Ee2Pfv52twz6tQ" name="ExtensionPoint1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_E4c1MNQAEe2Pfv52twz6tQ" name="Delete a Benchmark"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_Y7jrQNQNEe2Pfv52twz6tQ" name="View Benchmarks"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_fHnk4NQNEe2Pfv52twz6tQ" name="View Executables"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_mngd4NQNEe2Pfv52twz6tQ" name="Modify a User"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_ot1RMNQNEe2Pfv52twz6tQ" name="Delete a User">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_qYeOEdQNEe2Pfv52twz6tQ" name="ExtensionPoint1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_V6kKANQOEe2Pfv52twz6tQ" name="Download Configuration">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ZvQjodQOEe2Pfv52twz6tQ" name="ExtensionPoint1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_XgEvQNQOEe2Pfv52twz6tQ" name="Upload Configuration">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ZKVRodQOEe2Pfv52twz6tQ" name="ExtensionPoint1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_k-T2ANQOEe2Pfv52twz6tQ" name="Download Results"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_DdGTsNQPEe2Pfv52twz6tQ" name="Manage Source Set">
+        <include xmi:type="uml:Include" xmi:id="_h6EMcNQPEe2Pfv52twz6tQ" addition="_GJm9QNQPEe2Pfv52twz6tQ"/>
+        <include xmi:type="uml:Include" xmi:id="_vbVZENQPEe2Pfv52twz6tQ" addition="_qjA_QNQPEe2Pfv52twz6tQ"/>
+        <include xmi:type="uml:Include" xmi:id="_wKovENQPEe2Pfv52twz6tQ" addition="_tOqGINQPEe2Pfv52twz6tQ"/>
+        <include xmi:type="uml:Include" xmi:id="_ytvlANQPEe2Pfv52twz6tQ" addition="_w7Y2kNQPEe2Pfv52twz6tQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_FaQj8NQPEe2Pfv52twz6tQ" memberEnd="_FaaU8tQPEe2Pfv52twz6tQ _FaaU89QPEe2Pfv52twz6tQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FaaU8NQPEe2Pfv52twz6tQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FaaU8dQPEe2Pfv52twz6tQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_FaaU8tQPEe2Pfv52twz6tQ" name="manage set files" type="_DdGTsNQPEe2Pfv52twz6tQ" association="_FaQj8NQPEe2Pfv52twz6tQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_FaaU89QPEe2Pfv52twz6tQ" name="user" type="_lvM5cNI3Ee2LFtJ0zrlrCg" association="_FaQj8NQPEe2Pfv52twz6tQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_GJm9QNQPEe2Pfv52twz6tQ" name="Upload a New Source Set"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_QGzmMNQPEe2Pfv52twz6tQ" name="Delete an Executable"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_qjA_QNQPEe2Pfv52twz6tQ" name="Download a Source Set"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_tOqGINQPEe2Pfv52twz6tQ" name="View Source Sets"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_w7Y2kNQPEe2Pfv52twz6tQ" name="Delete a Source Set"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_6q96QNQPEe2Pfv52twz6tQ" name="Add a Virtual Machine"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_ESIBwNQQEe2Pfv52twz6tQ" name="Create a User"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_F0yHUNQQEe2Pfv52twz6tQ" name="Controller"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_HLUccNQQEe2Pfv52twz6tQ" memberEnd="_HLUcc9QQEe2Pfv52twz6tQ _HLUcdNQQEe2Pfv52twz6tQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HLUccdQQEe2Pfv52twz6tQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HLUcctQQEe2Pfv52twz6tQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_HLUcc9QQEe2Pfv52twz6tQ" name="create a user" type="_ESIBwNQQEe2Pfv52twz6tQ" association="_HLUccNQQEe2Pfv52twz6tQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_HLUcdNQQEe2Pfv52twz6tQ" name="controller" type="_F0yHUNQQEe2Pfv52twz6tQ" association="_HLUccNQQEe2Pfv52twz6tQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_NPqkgNQQEe2Pfv52twz6tQ" name="View Virtual Machines"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_R4B2wNQQEe2Pfv52twz6tQ" name="Detach a Virtual Machine"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_p8OPkNQQEe2Pfv52twz6tQ" name="Modify a Virtual Machine"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_QCp0ENQREe2Pfv52twz6tQ" name="View Users"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_L2FQgNQSEe2Pfv52twz6tQ" name="View Configurations">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_OxBXodQSEe2Pfv52twz6tQ" name="ExtensionPoint1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_QQCTUNQSEe2Pfv52twz6tQ" name="Delete a Configuration">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_S2UZEdQSEe2Pfv52twz6tQ" name="ExtensionPoint1"/>
+      </packagedElement>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mDxjQMWqEe2m-vko_vR7ZA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mD77UMWqEe2m-vko_vR7ZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
